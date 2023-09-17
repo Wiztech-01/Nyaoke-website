@@ -3,20 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
+    <!-- <link rel="stylesheet" href="/style.css"> -->
+    <style type="text/css" >
+        * {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            body {
+                background-image: url(https://images.unsplash.com/photo-1543097840-fc84594dd9e6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Z3JhZmZpdGl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);
+                background-size: cover;
+                margin: 0;
+            }
+            .header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background-color:  rgb(5, 26, 44);
+                text-decoration: none;
+                color: white;
+            }
+            main {
+                margin: 0;
+            }
+            footer {
+                display: flex;
+                background-color: white;
+                color: black;
+            }
+            #logo {
+                height: 100px;
+                position: left;
+            }
+            .navbar {
+                display: flex;
+                color: aliceblue;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                flex-direction: row;
+                align-items: center;
+                margin: 0;
+                padding: 0;
+                /* background-color: white; */
+                gap: 5em;
+            }
+            button {
+                border-radius: 0.5em;
+                height: 2em;
+                border: none;
+
+            }
+            a.link {
+                text-decoration: none;
+            }
+            
+    </style>
     <title>Lynn Nyaoke Profile</title>
 </head>
 <body>
-    <header>
-        <img src="" alt="logo">
-        <nav>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">About Me</a></li>
-                <li><a href="">Contact</a></li>
+    <header class="header" >
+        <img id="logo" src="https://static.vecteezy.com/system/resources/previews/014/747/871/original/letter-ln-logo-with-luxury-gold-template-elegance-logo-template-vector.jpg" alt="logo">
+        <nav class="navbar" >
+            
+                <ul><a href="#">Home</a></ul>
+                <ul><a href="#">About Me</a></ul>
+                <ul><a href="#">Contact</a></ul>
                 <!-- <li><a href=""></a></li> -->
-              </ul>
+            
         </nav>
+        <button><a href="">Ask Me</a></button>
+        <div id="empty-navbar-div" ></div>
     </header>
     <main>
         <!-- top image with name-->
