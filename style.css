@@ -1,0 +1,17 @@
+* {
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body {
+    background-color: black;
+    margin: 0;
+}
+main {
+    display: flex;
+    margin: 0;
+}
+footer {
+    display: flex;
+    background-color: white;
+    color: black;
+}
