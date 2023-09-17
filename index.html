@@ -20,6 +20,7 @@
                 background-color:  rgb(5, 26, 44);
                 text-decoration: none;
                 color: white;
+                opacity: 95%;
             }
             main {
                 margin: 0;
@@ -49,12 +50,42 @@
                 border-radius: 0.5em;
                 height: 2em;
                 border: none;
+                color: white;
+                background-color: rgb(134, 120, 39);
 
             }
-            a.link {
-                text-decoration: none;
+            #profile-image {
+                position: relative;
+                text-align: center;
+                color: white;
+                width: 1350px;
+                
             }
-            
+            #womantec {
+                position: absolute;
+                bottom: 90px;
+                left: 16px;
+                color: rgb(5, 26, 44);
+                display: flex;
+                flex-direction: column;
+                /* background-color: white;
+                border-radius: 1em; */
+            }         
+            #lynn {
+                position: absolute;
+                bottom: 50px;
+                left: 16px;
+                color: rgb(5, 26, 44);
+                display: flex;
+                flex-direction: column;
+            }      
+            #aboutmemore {
+                position: absolute;
+                bottom: 80px;
+                left: 16px;
+                display: flex;
+                flex-direction: column;
+            }      
     </style>
     <title>Lynn Nyaoke Profile</title>
 </head>
@@ -63,31 +94,31 @@
         <img id="logo" src="https://static.vecteezy.com/system/resources/previews/014/747/871/original/letter-ln-logo-with-luxury-gold-template-elegance-logo-template-vector.jpg" alt="logo">
         <nav class="navbar" >
             
-                <ul><a href="#">Home</a></ul>
-                <ul><a href="#">About Me</a></ul>
-                <ul><a href="#">Contact</a></ul>
+                <ul><a href="" style="text-decoration: none; color: aliceblue;">Home</a></ul>
+                <ul><a href="" style="text-decoration: none; color: aliceblue;">About Me</a></ul>
+                <ul><a href="" style="text-decoration: none; color: aliceblue;" >Contact</a></ul>
                 <!-- <li><a href=""></a></li> -->
             
         </nav>
-        <button><a href="">Ask Me</a></button>
+        <button><a href="" style="text-decoration: none; color: aliceblue;">Ask Me</a></button>
         <div id="empty-navbar-div" ></div>
     </header>
     <main>
         <!-- top image with name-->
         <div class="my-profile" >
-            <div>
-                <h5>Woman in Tech</h5>
-                <h1>Lynn Nyaoke</h1>
-                <a href="">About Me ></a>
-            </div>
             <div class="profile-image" >
-                <img src="https://media.licdn.com/dms/image/D4D22AQF6EAqxp2TXnQ/feedshare-shrink_800/0/1694606318069?e=1697673600&v=beta&t=haZ4F1oYUrnG4vWO4adv2UXYKhID0PQYwmK11qUR5vg" alt="lynn at work">
+                <img id="profile-image" src="https://media.licdn.com/dms/image/D4D22AQF6EAqxp2TXnQ/feedshare-shrink_800/0/1694606318069?e=1697673600&v=beta&t=haZ4F1oYUrnG4vWO4adv2UXYKhID0PQYwmK11qUR5vg" alt="lynn at work">
+                <div id="profile-text" >
+                    <div id="womantec" ><h3>HR & Org. Dev | Woman in Tech | Software Engineer | Humanitarian | Disruptor</h3></div>
+                    <div id="lynn" ><p style="font-size: 100px;" >Lynn Nyaoke</p></div>
+                    <div id="aboutmemore"><a href="" style="text-decoration: none; color: aliceblue;" >Learn More About Me ></a></div>
+                </div>
             </div>
         </div>
         <!-- bottom sector about me -->
         <div class="about-me" >
             <h2>About Me</h2>
-            <!-- profile photo -->
+            <!-- About photo -->
             <div>
                 <img src="https://media.licdn.com/dms/image/D4D03AQG29hcqgtJ45A/profile-displayphoto-shrink_200_200/0/1694447582528?e=1700697600&v=beta&t=zPk2mhdT25eHgkLLLbGAkYrnzXQIR__cBKrS_7Oi-uo" alt="lynn profile photo">
             </div>
