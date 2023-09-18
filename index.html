@@ -27,9 +27,9 @@
                 margin: 0;
             }
             footer {
-                display: flex;
-                background-color: white;
+                background-color: rgb(134, 120, 39);
                 color: black;
+                padding: 40px;
             }
             #logo {
                 height: 100px;
@@ -90,7 +90,6 @@
             #about-title {
                 display: flex;
                 justify-content: left;
-
             }
 
             .about-me {
@@ -102,6 +101,14 @@
                 align-items: center;
                 padding: 30px;
             }
+            .contact-content {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                color:  rgb(5, 26, 44);
+                text-decoration: none;
+            }
+            
     </style>
     <title>Lynn Nyaoke Profile</title>
 </head>
@@ -144,7 +151,7 @@
                     <p style="font-size: 20px;" > I am a <b>Software Engineering </b> student studying a Moringa School and ALX.
                         My experience is in the human resources industry and with a disruptive mindset in tech and women empowerment. <br> <br>
                         I have a               
-                        Bachelors of Arts degree, with a major in Gender and development studies and 
+                        Bachelors of Arts degree, with a major in Gender and Development Studies and 
                         having my minor in Sociology from Kenyatta University. <br> <br>
 
                         I am also a business owner at <a href="https://www.instagram.com/_lynn_adornets/" style="text-decoration: none; color: rgb(134, 120, 39);" >Lynn Adornets Inc.</a>
@@ -157,22 +164,29 @@
     </main>
     <!-- my contact -->
     <footer class="footer" >
-        <div class="contact-information" >
-            Lynn Nyaoke
-            <a href="https://www.linkedin.com/in/lynn-nyaoke-058b43216/">lynnnyaoke.com</a>
-            lynnnyaoke@email.com | [+254] 123-456-789 | Nairobi, Kenya
-        </div>
-        <div> <h3>OR</h3> </div>
-        <div class="contact-form" >
-            <form action="">
-                <input type="text" placeholder="Name"> <br> <br>
-                <input type="number" name="" id="" placeholder="Phone Number"> <br> <br>
-                <input type="email" name="" id="" placeholder="Email Address"> <br> <br>
-                <input type="submit" value="Submit">
-            </form>
+        <div class="contact-content" >
+            <div> <h2>Contact Me</h2></div>
+            <div class="contact-information" >
+                Email: lynnnyaoke@gmail.com <br><br>
+                Website: <a href="https://www.linkedin.com/in/lynn-nyaoke-058b43216/" style="text-decoration: none; color: aliceblue;">Lynnnyaoke.com</a><br><br>
+                Phone No.: [+254] 123-456-789 <br> <br>
+                Location: Nairobi, Kenya
+            </div>
+            <div> <h3>OR</h3> </div>
+            <div class="contact-form" >
+                <form action="" >
+                    <input type="text" placeholder="Name" style="border-radius: 2px; border: none;" > <br> <br>
+                    <input type="number" name="" id="" placeholder="Phone Number" style="border-radius: 2px; border: none;"> <br> <br>
+                    <input type="email" name="" id="" placeholder="Email Address" style="border-radius: 2px; border: none;"> <br> <br>
+                    <input type="submit" value="Submit" style="border-radius: 2px; border: none;">
+                </form>
+            </div>
         </div>
     </footer>
-    <p>Copyright @ Wiztech 2023</p>
+    <div style="justify-content: center; color: rgb(134, 120, 39);">
+        <p>Copyright @ Wiztech 2023</p>
+    </div>
     <script src="index.js"></script>
 </body>
+
 </html>
