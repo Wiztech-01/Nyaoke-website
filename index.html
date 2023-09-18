@@ -9,7 +9,8 @@
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             }
             body {
-                background-image: url(https://images.unsplash.com/photo-1543097840-fc84594dd9e6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Z3JhZmZpdGl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);
+                background-color: rgb(5, 26, 44);
+                /* background-image: url(https://images.unsplash.com/photo-1543097840-fc84594dd9e6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Z3JhZmZpdGl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60); */
                 background-size: cover;
                 margin: 0;
             }
@@ -86,6 +87,16 @@
                 display: flex;
                 flex-direction: column;
             }      
+
+            .about-me {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                gap: 5em;
+                background-color: rgb(5, 26, 44);
+
+
+            }
     </style>
     <title>Lynn Nyaoke Profile</title>
 </head>
@@ -116,23 +127,24 @@
             </div>
         </div>
         <!-- bottom sector about me -->
-        <div class="about-me" >
-            <h2>About Me</h2>
+        <div  >
+            <h1>About Me</h1>
             <!-- About photo -->
-            <div>
-                <img src="https://media.licdn.com/dms/image/D4D03AQG29hcqgtJ45A/profile-displayphoto-shrink_200_200/0/1694447582528?e=1700697600&v=beta&t=zPk2mhdT25eHgkLLLbGAkYrnzXQIR__cBKrS_7Oi-uo" alt="lynn profile photo">
-            </div>
-            <!-- profile content -->
-            <div>
-                <p> I am a <b>Software Engineering </b> student studying a Moringa School and ALX.
-                    My experience is in the human resources industry and with a disruptive mindset in tech and women empowerment. <br> <br>
-                    I have a               
-                    Bachelors of Arts degree, with a major in Gender and development studies and 
-                    having my minor in Sociology from Kenyatta University. <br> <br>
+            <div class="about-me">
+                <div>
+                    <img height="300px" src="https://media.licdn.com/dms/image/D4D03AQG29hcqgtJ45A/profile-displayphoto-shrink_200_200/0/1694447582528?e=1700697600&v=beta&t=zPk2mhdT25eHgkLLLbGAkYrnzXQIR__cBKrS_7Oi-uo" alt="lynn profile photo">
+                </div>
+                <!-- profile content -->
+                
+                    <p style="font-size: 20px;" > I am a <b>Software Engineering </b> student studying a Moringa School and ALX.
+                        My experience is in the human resources industry and with a disruptive mindset in tech and women empowerment. <br> <br>
+                        I have a               
+                        Bachelors of Arts degree, with a major in Gender and development studies and 
+                        having my minor in Sociology from Kenyatta University. <br> <br>
 
-                    I am also a business owner at <a href="https://www.instagram.com/_lynn_adornets/">Lynn Adornets Inc.</a>
-                </p>
-            </div>
+                        I am also a business owner at <a href="https://www.instagram.com/_lynn_adornets/">Lynn Adornets Inc.</a>
+                    </p>
+                </div>
         </div>
 
     </main>
