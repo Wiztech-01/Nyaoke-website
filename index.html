@@ -87,15 +87,20 @@
                 display: flex;
                 flex-direction: column;
             }      
+            #about-title {
+                display: flex;
+                justify-content: left;
+
+            }
 
             .about-me {
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
                 gap: 5em;
-                background-color: rgb(5, 26, 44);
-
-
+                color: white;
+                align-items: center;
+                padding: 30px;
             }
     </style>
     <title>Lynn Nyaoke Profile</title>
@@ -127,24 +132,26 @@
             </div>
         </div>
         <!-- bottom sector about me -->
-        <div  >
-            <h1>About Me</h1>
+        <div>
             <!-- About photo -->
             <div class="about-me">
                 <div>
-                    <img height="300px" src="https://media.licdn.com/dms/image/D4D03AQG29hcqgtJ45A/profile-displayphoto-shrink_200_200/0/1694447582528?e=1700697600&v=beta&t=zPk2mhdT25eHgkLLLbGAkYrnzXQIR__cBKrS_7Oi-uo" alt="lynn profile photo">
+                    <img height="300px" style="border-radius: 300px;" src="https://media.licdn.com/dms/image/D4D03AQG29hcqgtJ45A/profile-displayphoto-shrink_200_200/0/1694447582528?e=1700697600&v=beta&t=zPk2mhdT25eHgkLLLbGAkYrnzXQIR__cBKrS_7Oi-uo" alt="lynn profile photo">
                 </div>
                 <!-- profile content -->
-                
+                <div>
+                    <div id="about-title" > <h1 style="color: rgb(134, 120, 39); " >About Me</h1> </div>
                     <p style="font-size: 20px;" > I am a <b>Software Engineering </b> student studying a Moringa School and ALX.
                         My experience is in the human resources industry and with a disruptive mindset in tech and women empowerment. <br> <br>
                         I have a               
                         Bachelors of Arts degree, with a major in Gender and development studies and 
                         having my minor in Sociology from Kenyatta University. <br> <br>
 
-                        I am also a business owner at <a href="https://www.instagram.com/_lynn_adornets/">Lynn Adornets Inc.</a>
+                        I am also a business owner at <a href="https://www.instagram.com/_lynn_adornets/" style="text-decoration: none; color: rgb(134, 120, 39);" >Lynn Adornets Inc.</a>
                     </p>
                 </div>
+                </div>
+
         </div>
 
     </main>
