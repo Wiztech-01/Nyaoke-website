@@ -1,104 +1,37 @@
 * {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
+    margin: 0;
+    padding: 0;
+
     body {
-        background-color: rgb(5, 26, 44);
-        /* background-image: url(https://images.unsplash.com/photo-1543097840-fc84594dd9e6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Z3JhZmZpdGl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60); */
-        background-size: cover;
-        margin: 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
-    .header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background-color:  rgb(5, 26, 44);
-        text-decoration: none;
-        color: white;
-        opacity: 95%;
-    }
-    main {
-        margin: 0;
-    }
-    footer {
-        background-color: rgb(134, 120, 39);
-        color: black;
-        padding: 40px;
-    }
-    #logo {
-        height: 100px;
-        position: left;
-    }
-    .navbar {
-        display: flex;
-        color: aliceblue;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        flex-direction: row;
-        align-items: center;
-        margin: 0;
-        padding: 0;
-        /* background-color: white; */
-        gap: 5em;
-    }
-    button {
-        border-radius: 0.5em;
-        height: 2em;
-        border: none;
-        color: white;
-        background-color: rgb(134, 120, 39);
-
-    }
-    #profile-image {
-        position: relative;
-        text-align: center;
-        color: white;
-        width: 1350px;
-        
-    }
-    #womantec {
-        position: absolute;
-        bottom: 90px;
-        left: 16px;
-        color: rgb(5, 26, 44);
-        display: flex;
-        flex-direction: column;
-        /* background-color: white;
-        border-radius: 1em; */
-    }         
-    #lynn {
-        position: absolute;
-        bottom: 50px;
-        left: 16px;
-        color: rgb(5, 26, 44);
-        display: flex;
-        flex-direction: column;
-    }      
-    #aboutmemore {
-        position: absolute;
-        bottom: 80px;
-        left: 16px;
-        display: flex;
-        flex-direction: column;
-    }      
-    #about-title {
-        display: flex;
-        justify-content: left;
+    
+    html{
+        scroll-behavior: smooth;
     }
 
-    .about-me {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        gap: 5em;
-        color: white;
-        align-items: center;
-        padding: 30px;
+    p{
+        color: rgb(85, 26, 44);
     }
-    .contact-content {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        color:  rgb(5, 26, 44);
-        text-decoration: none;
+
+    /* TRANSITION */
+
+    a, btn{
+        transition: all 300ms ease;
     }
+
+    /* DESKTOP NAV */
+    nav, 
+    .nav-links{
+        display: flex;
+    }
+
+    nav{
+        justify-content: space-around;
+        align-items: center;
+        height: 17vh;
+    }
+
+}
+
     
